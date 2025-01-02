@@ -1,11 +1,48 @@
 <?php include 'includes/header.php'; ?>
-<div class="hero-section text-center text-white d-flex align-items-center justify-content-center">
-    <div>
-        <h1 class="display-4">Welcome to SolutionX</h1>
-        <p class="lead">Innovative Software Solutions for Your Business</p>
-        <a href="about.php" class="btn btn-primary btn-lg">Learn More</a>
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="hero-section text-center text-white d-flex align-items-center justify-content-center" style="background: url('assets/images/hero-frontend.jpg') no-repeat center center/cover; height: 100vh;">
+                <div>
+                    <h1 class="display-4">Frontend Development</h1>
+                    <p class="lead">Crafting stunning and responsive interfaces.</p>
+                    <a href="about.php" class="btn btn-primary btn-lg">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="hero-section text-center text-white d-flex align-items-center justify-content-center" style="background: url('assets/images/hero-backend.jpg') no-repeat center center/cover; height: 100vh;">
+                <div>
+                    <h1 class="display-4">Backend Development</h1>
+                    <p class="lead">Building powerful and scalable server-side solutions.</p>
+                    <a href="services.php" class="btn btn-primary btn-lg">Explore Services</a>
+                </div>
+            </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+            <div class="hero-section text-center text-white d-flex align-items-center justify-content-center" style="background: url('assets/images/hero-database.jpg') no-repeat center center/cover; height: 100vh;">
+                <div>
+                    <h1 class="display-4">Database Management</h1>
+                    <p class="lead">Organizing and managing your data efficiently.</p>
+                    <a href="projects.php" class="btn btn-primary btn-lg">View Projects</a>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
+
 
 <div class="container my-5">
     <section id="services" class="text-center">
