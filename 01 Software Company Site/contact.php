@@ -1,6 +1,7 @@
 <?php include 'includes/header.php'; ?>
 <div class="container my-5">
     <h1 class="text-center">Contact Us</h1>
+    <p class="text-center">We’d love to hear from you! Get in touch with us today.</p>
     <form class="mt-4">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>

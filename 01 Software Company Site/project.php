@@ -4,7 +4,7 @@ $projectId = $_GET['id'] ?? 1; // Default project ID
 $project = [
     'title' => 'Project Alpha',
     'description' => 'This is a detailed description of Project Alpha.',
-    'image' => 'assets/images/alpha.jpg'
+    'image' => 'assets/images/project1.jpg'
 ];
 ?>
 <?php include 'includes/header.php'; ?>

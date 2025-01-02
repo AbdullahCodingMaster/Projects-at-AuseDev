@@ -5,7 +5,7 @@
         <!-- Example Project Cards -->
         <div class="col-md-4">
             <div class="card">
-                <img src="assets/images/alpha.jpg" class="card-img-top" alt="Project Alpha">
+                <img src="assets/images/project1.jpg" class="card-img-top" alt="Project Alpha">
                 <div class="card-body">
                     <h5 class="card-title">Project Alpha</h5>
                     <p class="card-text">A task management web app.</p>
