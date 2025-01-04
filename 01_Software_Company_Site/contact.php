@@ -1,6 +1,6 @@
 <?php include 'includes/header.php'; ?>
-<?php
-include 'includes/db_connect.php';
+<?php include 'includes/navbar.php';
+include 'database/db_connect.php';
 
 $message = ''; // Placeholder for success or error messages
 

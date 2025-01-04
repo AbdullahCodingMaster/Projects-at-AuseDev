@@ -1,4 +1,5 @@
 <?php include 'includes/header.php'; ?>
+<?php include 'includes/navbar.php'; ?>
 <div class="container my-5">
     <h1 class="text-center display-4 font-weight-bold text-primary">Our Services</h1>
     <p class="text-center lead text-muted mb-5">
