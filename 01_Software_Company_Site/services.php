@@ -1,77 +1,91 @@
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/navbar.php'; ?>
-<div class="container my-5">
-    <h1 class="text-center display-4 font-weight-bold text-primary">Our Services</h1>
-    <p class="text-center lead text-muted mb-5">
-        At SolutionX, we provide a wide range of services designed to empower businesses with innovative technology solutions. Our team of experts works collaboratively to create custom software that meets your unique requirements and helps your business thrive in today’s competitive market.
-    </p>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <!-- Service 1: Custom Software Development -->
-        <div class="col">
-            <div class="card shadow-lg border-light rounded-3 h-100">
-                <div class="card-body text-center">
-                    <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
-                    <h5 class="card-title text-primary font-weight-bold">Custom Software Development</h5>
-                    <p class="card-text text-muted">Tailored solutions to meet your business needs, built with cutting-edge technology to optimize performance and efficiency.</p>
+<!-- Hero Section with Enhanced Slider -->
+<section class="hero-section text-white text-center" style="min-height: 100vh; width: 100%; position: relative;">
+    <div class="container-fluid px-0">
+        <div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active" style="background-image: url('assets/images/hero-backend.jpg'); background-size: cover; background-position: center; height: 100vh;">
+                    <div class="overlay" style="background: rgba(0, 0, 0, 0.6); position: absolute; inset: 0;"></div>
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="text-container position-relative">
+                            <h1 class="display-4 fw-bold mb-3 fadeInUp">Custom Software Solutions</h1>
+                            <p class="lead mb-4 fadeInUp delay-1s">Empowering businesses with tailored software designed to solve your most complex challenges.</p>
+                            <a href="services.php#custom-software" class="btn btn-primary btn-lg px-4 py-2 fadeInUp delay-2s">Explore Custom Software</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="carousel-item" style="background-image: url('assets/images/hero-database.jpg'); background-size: cover; background-position: center; height: 100vh;">
+                    <div class="overlay" style="background: rgba(0, 0, 0, 0.6); position: absolute; inset: 0;"></div>
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="text-container position-relative">
+                            <h1 class="display-4 fw-bold mb-3 fadeInUp">Mobile App Development</h1>
+                            <p class="lead mb-4 fadeInUp delay-1s">Transform your business with high-performance mobile apps for iOS and Android platforms.</p>
+                            <a href="services.php#mobile-app" class="btn btn-primary btn-lg px-4 py-2 fadeInUp delay-2s">Explore Mobile Apps</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="carousel-item" style="background-image: url('assets/images/hero-frontend.jpg'); background-size: cover; background-position: center; height: 100vh;">
+                    <div class="overlay" style="background: rgba(0, 0, 0, 0.6); position: absolute; inset: 0;"></div>
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="text-container position-relative">
+                            <h1 class="display-4 fw-bold mb-3 fadeInUp">Cloud Solutions</h1>
+                            <p class="lead mb-4 fadeInUp delay-1s">Leverage the power of the cloud to scale your business operations and improve efficiency.</p>
+                            <a href="services.php#cloud-solutions" class="btn btn-primary btn-lg px-4 py-2 fadeInUp delay-2s">Explore Cloud Solutions</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Service 2: UI/UX Design -->
-        <div class="col">
-            <div class="card shadow-lg border-light rounded-3 h-100">
-                <div class="card-body text-center">
-                    <i class="fas fa-paint-brush fa-3x text-primary mb-3"></i>
-                    <h5 class="card-title text-primary font-weight-bold">UI/UX Design</h5>
-                    <p class="card-text text-muted">Creating intuitive, visually appealing interfaces that enhance user experience and drive engagement.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Service 3: Data Analytics -->
-        <div class="col">
-            <div class="card shadow-lg border-light rounded-3 h-100">
-                <div class="card-body text-center">
-                    <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
-                    <h5 class="card-title text-primary font-weight-bold">Data Analytics</h5>
-                    <p class="card-text text-muted">Unlocking insights through powerful analytics tools to help you make informed business decisions based on data-driven insights.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Service 4: Cloud Solutions -->
-        <div class="col">
-            <div class="card shadow-lg border-light rounded-3 h-100">
-                <div class="card-body text-center">
-                    <i class="fas fa-cloud fa-3x text-primary mb-3"></i>
-                    <h5 class="card-title text-primary font-weight-bold">Cloud Solutions</h5>
-                    <p class="card-text text-muted">Providing scalable, secure cloud solutions to ensure your business runs smoothly and securely in the cloud environment.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Service 5: Mobile App Development -->
-        <div class="col">
-            <div class="card shadow-lg border-light rounded-3 h-100">
-                <div class="card-body text-center">
-                    <i class="fas fa-mobile-alt fa-3x text-primary mb-3"></i>
-                    <h5 class="card-title text-primary font-weight-bold">Mobile App Development</h5>
-                    <p class="card-text text-muted">Creating innovative and user-friendly mobile applications for iOS and Android platforms to enhance user engagement.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Service 6: IT Consulting -->
-        <div class="col">
-            <div class="card shadow-lg border-light rounded-3 h-100">
-                <div class="card-body text-center">
-                    <i class="fas fa-headset fa-3x text-primary mb-3"></i>
-                    <h5 class="card-title text-primary font-weight-bold">IT Consulting</h5>
-                    <p class="card-text text-muted">Offering expert advice and strategies to optimize your IT infrastructure and align your technology with business objectives.</p>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
-</div>
+</section>
+<!-- Our Services -->
+<section class="services-section py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center display-4 text-primary mb-4">Our Services</h2>
+        <p class="text-center text-muted lead mb-5">Empowering businesses with cutting-edge solutions tailored to meet unique challenges and goals.</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <?php
+            $services = [
+                ['icon' => 'laptop-code', 'title' => 'Custom Software Development', 'text' => 'Tailored solutions to meet your business needs, built with cutting-edge technology.'],
+                ['icon' => 'paint-brush', 'title' => 'UI/UX Design', 'text' => 'Creating intuitive, visually appealing interfaces that enhance user experience.'],
+                ['icon' => 'chart-line', 'title' => 'Data Analytics', 'text' => 'Unlocking insights with powerful analytics tools for data-driven decisions.'],
+                ['icon' => 'cloud', 'title' => 'Cloud Solutions', 'text' => 'Providing scalable, secure cloud solutions for seamless operations.'],
+                ['icon' => 'mobile-alt', 'title' => 'Mobile App Development', 'text' => 'Innovative mobile apps for iOS and Android to engage users effectively.'],
+                ['icon' => 'headset', 'title' => 'IT Consulting', 'text' => 'Offering expert strategies to align your technology with business goals.'],
+            ];
+            foreach ($services as $service): ?>
+                <div class="col">
+                    <div class="card shadow-sm border-0 h-100 text-center p-3">
+                        <i class="fas fa-<?= $service['icon'] ?> fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title text-primary"><?= $service['title'] ?></h5>
+                        <p class="card-text text-muted"><?= $service['text'] ?></p>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta-section bg-primary text-white py-5">
+    <div class="container text-center">
+        <h3 class="fw-bold mb-3">Ready to Transform Your Business?</h3>
+        <p class="lead">Contact us today to explore how we can help you achieve your goals.</p>
+        <a href="contact.php" class="btn btn-light btn-lg">Get Started</a>
+    </div>
+</section>
+
 <?php include 'includes/footer.php'; ?>
