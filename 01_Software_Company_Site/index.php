@@ -78,37 +78,58 @@
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card shadow-lg h-100">
-                    <img src="assets/images/hero-backend.jpg" class="card-img-top" alt="Service 1">
                     <div class="card-body">
                         <h5 class="card-title">Custom Software Development</h5>
                         <p class="card-text">Our custom software solutions are designed to meet the specific needs of your business. We build scalable, secure, and high-performing software to elevate your operations.</p>
-                        <a href="services.php" class="btn btn-primary btn-sm">View Service</a>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <video controls>
+                            <source src="assets/videos/custom-software-development.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card shadow-lg h-100">
-                    <img src="assets/images/hero-backend.jpg" class="card-img-top" alt="Service 2">
                     <div class="card-body">
                         <h5 class="card-title">Mobile App Development</h5>
                         <p class="card-text">We create intuitive and high-performance mobile applications for both iOS and Android platforms, ensuring a seamless user experience across devices.</p>
-                        <a href="services.php" class="btn btn-primary btn-sm">View Service</a>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <video controls>
+                            <source src="assets/videos/mobile-app-development.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card shadow-lg h-100">
-                    <img src="assets/images/hero-backend.jpg" class="card-img-top" alt="Service 3">
                     <div class="card-body">
                         <h5 class="card-title">Cloud Solutions</h5>
                         <p class="card-text">Our cloud-based solutions help businesses improve scalability, security, and cost efficiency. We provide end-to-end cloud services, from migration to management.</p>
-                        <a href="services.php" class="btn btn-primary btn-sm">View Service</a>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <video controls>
+                            <source src="assets/videos/cloud-solutions.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="card-footer text-center">
+        <a href="services.php" class="btn btn-primary btn-sm">View Service</a>
+    </div>
 </section>
+
+<!-- Video File Names:
+1. Custom Software Development: custom-software-development.mp4
+2. Mobile App Development: mobile-app-development.mp4
+3. Cloud Solutions: cloud-solutions.mp4 -->
+
 
 <section class="features-section py-5 bg-light">
     <div class="container">
@@ -163,8 +184,6 @@
     </div>
 </section>
 
-
-
 <!-- Projects Section (Dynamic) -->
 <section class="projects-section py-5 bg-light">
     <div class="container">
@@ -189,7 +208,6 @@
                                     <div class="card-body">
                                         <h5 class="card-title">' . $project['title'] . '</h5>
                                         <p class="card-text">' . $project['description'] . '</p>
-                                        <a href="#" class="btn btn-primary btn-sm">View Project</a> <!-- Remove or update this link if needed -->
                                     </div>
                                 </div>
                             </div>';
@@ -203,6 +221,9 @@
             }
             ?>
         </div>
+    </div>
+    <div class="card-footer text-center">
+        <a href="projects.php" class="btn btn-primary btn-sm">View Project</a>
     </div>
 </section>
 
@@ -246,12 +267,3 @@
 </section>
 
 <?php include 'includes/footer.php'; ?>
-
-<!-- AOS Animation Library -->
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-    AOS.init({
-        duration: 1200,
-        once: true
-    });
-</script>

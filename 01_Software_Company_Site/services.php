@@ -54,9 +54,11 @@
 <!-- Our Services -->
 <section class="services-section py-5 bg-light">
     <div class="container">
-        <h2 class="text-center display-4 text-primary mb-4">Our Services</h2>
-        <p class="text-center text-muted lead mb-5">Empowering businesses with cutting-edge solutions tailored to meet unique challenges and goals.</p>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <h2 class="text-center display-4 text-primary fw-bold mb-4">Our Services</h2>
+        <p class="text-center text-muted fs-5 mb-5">
+            Empowering businesses with cutting-edge solutions tailored to meet unique challenges and goals.
+        </p>
+        <div class="row g-4">
             <?php
             $services = [
                 ['icon' => 'laptop-code', 'title' => 'Custom Software Development', 'text' => 'Tailored solutions to meet your business needs, built with cutting-edge technology.'],
@@ -67,11 +69,15 @@
                 ['icon' => 'headset', 'title' => 'IT Consulting', 'text' => 'Offering expert strategies to align your technology with business goals.'],
             ];
             foreach ($services as $service): ?>
-                <div class="col">
-                    <div class="card shadow-sm border-0 h-100 text-center p-3">
-                        <i class="fas fa-<?= $service['icon'] ?> fa-3x text-primary mb-3"></i>
-                        <h5 class="card-title text-primary"><?= $service['title'] ?></h5>
-                        <p class="card-text text-muted"><?= $service['text'] ?></p>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm border-0 text-center">
+                        <div class="card-body">
+                            <div class="icon-wrapper bg-primary text-white rounded-circle mx-auto mb-4 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                                <i class="fas fa-<?= $service['icon'] ?> fa-2x"></i>
+                            </div>
+                            <h5 class="card-title fw-bold text-primary mb-3"><?= $service['title'] ?></h5>
+                            <p class="card-text text-muted"><?= $service['text'] ?></p>
+                        </div>
                     </div>
                 </div>
             <?php endforeach; ?>
@@ -82,10 +88,13 @@
 <!-- Call to Action -->
 <section class="cta-section bg-primary text-white py-5">
     <div class="container text-center">
-        <h3 class="fw-bold mb-3">Ready to Transform Your Business?</h3>
-        <p class="lead">Contact us today to explore how we can help you achieve your goals.</p>
-        <a href="contact.php" class="btn btn-light btn-lg">Get Started</a>
+        <h3 class="fw-bold display-5 mb-4">Ready to Transform Your Business?</h3>
+        <p class="lead mb-4">Contact us today to explore how we can help you achieve your goals.</p>
+        <a href="contact.php" class="btn btn-light btn-lg px-5 py-3 shadow">
+            Get Started
+        </a>
     </div>
 </section>
+
 
 <?php include 'includes/footer.php'; ?>

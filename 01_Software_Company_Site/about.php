@@ -73,41 +73,56 @@
 </div>
 
 <!-- Services Section -->
-<section id="services-section" class="py-5 bg-light">
+<section class="services-section py-5">
     <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="fw-bold text-primary">Our Services</h2>
-            <p class="text-muted">Explore the wide range of services we offer to meet your unique business needs.</p>
+        <h2 class="text-center display-5 fw-bold mb-5">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-lg h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Custom Software Development</h5>
+                        <p class="card-text">Our custom software solutions are designed to meet the specific needs of your business. We build scalable, secure, and high-performing software to elevate your operations.</p>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <video controls>
+                            <source src="assets/videos/custom-software-development.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-lg h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Mobile App Development</h5>
+                        <p class="card-text">We create intuitive and high-performance mobile applications for both iOS and Android platforms, ensuring a seamless user experience across devices.</p>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <video controls>
+                            <source src="assets/videos/mobile-app-development.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-lg h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Cloud Solutions</h5>
+                        <p class="card-text">Our cloud-based solutions help businesses improve scalability, security, and cost efficiency. We provide end-to-end cloud services, from migration to management.</p>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <video controls>
+                            <source src="assets/videos/cloud-solutions.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card shadow-lg border-0">
-                    <img src="assets/images/service1.jpg" class="card-img-top" alt="Service 1">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary fw-bold">Custom Software Development</h5>
-                        <p class="card-text text-muted">Build scalable and robust software solutions tailored to your business needs.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow-lg border-0">
-                    <img src="assets/images/service2.jpg" class="card-img-top" alt="Service 2">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary fw-bold">Cloud Solutions</h5>
-                        <p class="card-text text-muted">Leverage cloud technologies to streamline operations and enhance scalability.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card shadow-lg border-0">
-                    <img src="assets/images/service3.jpg" class="card-img-top" alt="Service 3">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary fw-bold">Technical Consultancy</h5>
-                        <p class="card-text text-muted">Get expert guidance to align your IT strategy with business goals.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
+    <div class="card-footer text-center">
+        <a href="services.php" class="btn btn-primary btn-sm">View Service</a>
     </div>
 </section>
 
