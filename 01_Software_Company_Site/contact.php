@@ -90,45 +90,47 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </section>
 
 <!-- Contact Section -->
-<div class="container my-5">
-    <div class="row">
-        <!-- Contact Form -->
-        <div class="col-md-6">
-            <h2 class="mb-4">Contact Us</h2>
-            <?php if ($message): ?>
-                <div class="my-3">
-                    <?= $message ?>
-                </div>
-            <?php endif; ?>
-            <form action="contact.php" method="POST">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary w-100">Submit</button>
-            </form>
-        </div>
+<section class="bg-light">
+    <div class="container my-5">
+        <div class="row">
+            <!-- Contact Form -->
+            <div class="col-md-6">
+                <h2 class="mb-4">Contact Us</h2>
+                <?php if ($message): ?>
+                    <div class="my-3">
+                        <?= $message ?>
+                    </div>
+                <?php endif; ?>
+                <form id="contact-form" action="contact.php" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
 
-        <!-- Google Map -->
-        <div class="col-md-6">
-            <h2 class="mb-4">Our Location</h2>
-            <div class="ratio ratio-4x3">
-                <iframe
-                    loading="lazy"
-                    src="https://maps.google.com/maps?q=Chellah%20bandi%20muzaffaraabad%20ajk%20Pakistan&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near"
-                    title="Our Location"
-                    aria-label="Chellah bandi muzaffaraabad ajk Pakistan"></iframe>
+            <!-- Google Map -->
+            <div class="col-md-6">
+                <h2 class="mb-4">Our Location</h2>
+                <div class="ratio ratio-4x3">
+                    <iframe
+                        loading="lazy"
+                        src="https://maps.google.com/maps?q=Chellah%20bandi%20muzaffaraabad%20ajk%20Pakistan&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near"
+                        title="Our Location"
+                        aria-label="Chellah bandi muzaffaraabad ajk Pakistan"></iframe>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <?php include 'includes/footer.php'; ?>

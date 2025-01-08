@@ -43,7 +43,7 @@
 
 <div id="about-content" class="container py-5">
     <div class="text-center mb-5">
-        <h1 class="display-4 fw-bold text-dark">About <span class="text-primary">SolutionX</span></h1>
+        <h2 class="display-5 fw-bold text-dark">About <span class="text-primary">SolutionX</span></h2>
         <p class="lead text-secondary">
             At SolutionX, we transform ideas into impactful realities. Through innovative and cutting-edge software solutions, we empower businesses to achieve goals, driving sustainable growth and long-term value.
         </p>
@@ -129,7 +129,7 @@
 <section id="team-section" class="py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-dark">Meet <span class="text-primary">Our Team</span></h2>
+            <h2 class="text-center display-5 fw-bold mb-5 text-dark">Meet <span class="text-primary">Our Team</span></h2>
             <p class="text-secondary">The driving force behind our success, innovation, and excellence.</p>
         </div>
         <div class="row g-5 justify-content-center">
@@ -168,7 +168,7 @@
 <section id="about-vision-mission" class="py-5 bg-light">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-dark">Our <span class="text-primary">Core Values</span></h2>
+            <h2 class="text-center display-5 fw-bold mb-5 text-dark">Our <span class="text-primary">Core Values</span></h2>
             <p class="text-secondary">Discover what drives us to deliver exceptional solutions.</p>
         </div>
         <div class="accordion shadow-sm rounded" id="accordionPanelsStayOpenExample">
