@@ -95,6 +95,45 @@
         </a>
     </div>
 </section>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Custom Software Development
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+                <strong>Build software tailored to your unique business needs.</strong> Our team ensures every feature aligns with your goals for efficiency and scalability.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Cloud Solutions
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <strong>Optimize your operations with secure, scalable cloud technology.</strong> We deliver seamless migration, deployment, and management for businesses of all sizes.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Artificial Intelligence
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <strong>Leverage the power of AI to gain a competitive edge.</strong> From predictive analytics to intelligent automation, we integrate AI solutions that enhance productivity and decision-making.
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <?php include 'includes/footer.php'; ?>

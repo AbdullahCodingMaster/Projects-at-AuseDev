@@ -40,31 +40,40 @@
 </section>
 
 <!-- About Section -->
+
 <div id="about-content" class="container py-5">
     <div class="text-center mb-5">
-        <h1 class="display-4 fw-bold text-primary">About SolutionX</h1>
-        <p class="lead text-muted">
-            At SolutionX, we bring ideas to life through innovative and cutting-edge software solutions. Our dedicated team empowers businesses and individuals to achieve their goals through tailored software solutions that create long-lasting value.
+        <h1 class="display-4 fw-bold text-dark">About <span class="text-primary">SolutionX</span></h1>
+        <p class="lead text-secondary">
+            At SolutionX, we transform ideas into impactful realities. Through innovative and cutting-edge software solutions, we empower businesses to achieve goals, driving sustainable growth and long-term value.
         </p>
     </div>
 
-    <div class="row g-4">
-        <div class="col-md-6">
-            <div class="card shadow-lg border-light">
-                <div class="card-body">
-                    <h4 class="card-title text-primary fw-bold">Our Mission</h4>
-                    <p class="card-text text-muted">
-                        We strive to provide top-tier technology solutions that enable businesses to enhance their operational efficiency, unlock growth potential, and achieve their strategic goals. Our mission is to foster a culture of innovation and collaboration.
+    <div class="row g-5">
+        <!-- Mission Section -->
+        <div class="col-lg-6">
+            <div class="card h-100 border-0 shadow">
+                <div class="card-body text-center p-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-flag-fill text-primary fs-2"></i>
+                    </div>
+                    <h4 class="card-title text-dark fw-bold">Our Mission</h4>
+                    <p class="card-text text-secondary mt-3">
+                        To deliver state-of-the-art technology solutions that enhance business efficiency, unlock growth, and empower strategic success. We embrace innovation and collaboration as core values in our journey.
                     </p>
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="card shadow-lg border-light">
-                <div class="card-body">
-                    <h4 class="card-title text-primary fw-bold">Our Vision</h4>
-                    <p class="card-text text-muted">
-                        Our vision is to become a globally recognized leader in the software development industry. Through our commitment to excellence and innovation, we empower organizations to succeed in an increasingly digital and connected world.
+        <!-- Vision Section -->
+        <div class="col-lg-6">
+            <div class="card h-100 border-0 shadow">
+                <div class="card-body text-center p-4">
+                    <div class="icon mb-3">
+                        <i class="bi bi-eye-fill text-primary fs-2"></i>
+                    </div>
+                    <h4 class="card-title text-dark fw-bold">Our Vision</h4>
+                    <p class="card-text text-secondary mt-3">
+                        To be a global leader in software innovation, empowering organizations to thrive in the digital age. We are driven by excellence and a vision to create lasting impact through technology.
                     </p>
                 </div>
             </div>
@@ -73,49 +82,39 @@
 </div>
 
 <!-- Services Section -->
-<section class="services-section py-5">
+<section id="services-section" class="services-section py-5 bg-light">
     <div class="container">
-        <h2 class="text-center display-5 fw-bold mb-5">Our Services</h2>
+        <h2 class="text-center display-5 fw-bold mb-5 text-dark">Our <span class="text-primary">Services</span></h2>
         <div class="row">
+            <!-- Service #01 -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow-lg h-100">
+                    <img src="assets/images/custom-software-development.jpg" alt="Custom Software Development" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Custom Software Development</h5>
                         <p class="card-text">Our custom software solutions are designed to meet the specific needs of your business. We build scalable, secure, and high-performing software to elevate your operations.</p>
                     </div>
-                    <div class="ratio ratio-16x9">
-                        <video controls>
-                            <source src="assets/videos/custom-software-development.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
                 </div>
             </div>
+
+            <!-- Service #02 -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow-lg h-100">
+                    <img src="assets/images/mobile-app-development.jpg" alt="Mobile App Development" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Mobile App Development</h5>
                         <p class="card-text">We create intuitive and high-performance mobile applications for both iOS and Android platforms, ensuring a seamless user experience across devices.</p>
                     </div>
-                    <div class="ratio ratio-16x9">
-                        <video controls>
-                            <source src="assets/videos/mobile-app-development.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
                 </div>
             </div>
+
+            <!-- Service #03 -->
             <div class="col-md-4 mb-4">
                 <div class="card shadow-lg h-100">
+                    <img src="assets/images/cloud-solutions.jpg" alt="Cloud Solutions" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Cloud Solutions</h5>
                         <p class="card-text">Our cloud-based solutions help businesses improve scalability, security, and cost efficiency. We provide end-to-end cloud services, from migration to management.</p>
-                    </div>
-                    <div class="ratio ratio-16x9">
-                        <video controls>
-                            <source src="assets/videos/cloud-solutions.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
                     </div>
                 </div>
             </div>
@@ -130,27 +129,92 @@
 <section id="team-section" class="py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-primary">Our Team</h2>
-            <p class="text-muted">Meet the talented professionals behind our success.</p>
+            <h2 class="fw-bold text-dark">Meet <span class="text-primary">Our Team</span></h2>
+            <p class="text-secondary">The driving force behind our success, innovation, and excellence.</p>
         </div>
-        <div class="row g-4">
-            <div class="col-md-4 text-center">
-                <img src="assets/images/team-1.jpg" alt="Team Member 1" class="img-fluid rounded-circle shadow mb-3" style="width: 150px; height: 150px;">
-                <h5 class="fw-bold text-primary">John Doe</h5>
-                <p class="text-muted">CEO & Founder</p>
+        <div class="row g-5 justify-content-center">
+            <!-- Team Member 1 -->
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="team-card bg-white rounded shadow py-4 px-3">
+                    <img src="assets/images/team-1.jpg" alt="John Doe" class="img-fluid rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+                    <h5 class="fw-bold text-dark">John Doe</h5>
+                    <p class="text-primary fw-semibold">CEO & Founder</p>
+                    <p class="text-muted">Leading the company with vision and expertise.</p>
+                </div>
             </div>
-            <div class="col-md-4 text-center">
-                <img src="assets/images/team-2.jpg" alt="Team Member 2" class="img-fluid rounded-circle shadow mb-3" style="width: 150px; height: 150px;">
-                <h5 class="fw-bold text-primary">Jane Smith</h5>
-                <p class="text-muted">CTO</p>
+            <!-- Team Member 2 -->
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="team-card bg-white rounded shadow py-4 px-3">
+                    <img src="assets/images/team-2.jpg" alt="Jane Smith" class="img-fluid rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+                    <h5 class="fw-bold text-dark">Jane Smith</h5>
+                    <p class="text-primary fw-semibold">CTO</p>
+                    <p class="text-muted">Driving technology innovation and strategy.</p>
+                </div>
             </div>
-            <div class="col-md-4 text-center">
-                <img src="assets/images/team-3.jpg" alt="Team Member 3" class="img-fluid rounded-circle shadow mb-3" style="width: 150px; height: 150px;">
-                <h5 class="fw-bold text-primary">Alice Johnson</h5>
-                <p class="text-muted">Project Manager</p>
+            <!-- Team Member 3 -->
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="team-card bg-white rounded shadow py-4 px-3">
+                    <img src="assets/images/team-3.jpg" alt="Alice Johnson" class="img-fluid rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+                    <h5 class="fw-bold text-dark">Alice Johnson</h5>
+                    <p class="text-primary fw-semibold">Project Manager</p>
+                    <p class="text-muted">Ensuring projects are delivered with precision and quality.</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Accordion Section -->
+<section id="about-vision-mission" class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold text-dark">Our <span class="text-primary">Core Values</span></h2>
+            <p class="text-secondary">Discover what drives us to deliver exceptional solutions.</p>
+        </div>
+        <div class="accordion shadow-sm rounded" id="accordionPanelsStayOpenExample">
+            <!-- Vision -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        Our Vision
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <strong>To revolutionize the way businesses leverage technology.</strong> Our vision is to create intelligent solutions that simplify processes and foster innovation for global growth.
+                    </div>
+                </div>
+            </div>
+            <!-- Mission -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Our Mission
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Empowering businesses through tailored software solutions.</strong> By prioritizing customer success, we focus on reliability, innovation, and outstanding support.
+                    </div>
+                </div>
+            </div>
+            <!-- Values -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-semibold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        Our Values
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Commitment, Innovation, and Collaboration.</strong> These principles define how we approach every project and deliver transformative solutions.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <?php include 'includes/footer.php'; ?>
