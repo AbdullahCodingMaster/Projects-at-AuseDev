@@ -110,7 +110,7 @@
         </div>
     </div>
     <div class="card-footer text-center">
-        <a href="services.php" class="btn btn-primary btn-sm">View Service</a>
+        <a href="services.php" class="btn btn-primary btn-lg px-4 py-2">View Service</a>
     </div>
 </section>
 
@@ -217,7 +217,7 @@
         </div>
     </div>
     <div class="card-footer text-center">
-        <a href="projects.php" class="btn btn-primary btn-sm">View Project</a>
+        <a href="projects.php" class="btn btn-primary btn-lg px-4 py-2">View Project</a>
     </div>
 </section>
 
